@@ -7,13 +7,8 @@ import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter } from "react-router-dom";
 
 
-
-import AppSecond from "./AppSecond";
 import "bootstrap/dist/css/bootstrap.min.css";
 import theme from "./theme";
-
-
-
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -25,15 +20,6 @@ root.render(
         </ChakraProvider>
       </BrowserRouter>
     </React.StrictMode>
-
-    <ChakraProvider theme={theme}>
-    <React.StrictMode>
-      <BrowserRouter>
-        <AppSecond />
-      </BrowserRouter>
-    </React.StrictMode>
-  </ChakraProvider>
-
   </>
 );
 

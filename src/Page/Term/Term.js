@@ -40,21 +40,12 @@ export function Term() {
         </Box>
         <br />
         <br />
-        <Box>
-          TravelCity proporciona a los viajeros acceso rápido a detalles
-          locales, promoviendo una exploración más informada y cómoda durante
-          sus aventuras. TravelCity ofrece funcionalidades como la búsqueda de
-          lugares , información sobre atracciones turísticas, rutas sugeridas,
-          recomendaciones de restaurantes, mapas y notificaciones relevantes.
-        </Box>
-        <br />
-        <br />
         <Box display="flex" justifyContent="center">
           Al aceptar los Términos y Condiciones, el usuario reconoce que en
-          cualquier momento TravelCity puede interrumpir, desactivar o cancelar
-          sus servicios y el acceso a los mismos. TravelCity es una aplicación
+          cualquier momento Empoderadas App puede interrumpir, desactivar o cancelar
+          sus servicios y el acceso a los mismos. Empoderadas App es una aplicación
           que se ha desarrollado con los máximos estándares de buenas prácticas
-          en desarrollo de software y testing; sin embargo, no impide que
+          en desarrollo de software; sin embargo, no impide que
           sucedan errores al hacer uso de la aplicación, debiéndose reportar lo
           más antes posible. Queda totalmente prohibida la modificación,
           traducción, adaptación, edición o cualquier acto de ingeniería
@@ -79,11 +70,11 @@ export function Term() {
         </Box>
         <br />
         <Box>
-          El mal uso de la aplicación de TravelCity para actitudes difamatorias,
+          El mal uso de la aplicación de Empoderadas App para actitudes difamatorias,
           calumniosas o amenazas.
         </Box>
         <br />
-        <Box> Utilizar la aplicación de TravelCity para fines comerciales.</Box>
+        <Box> Utilizar la aplicación de Empoderadas App para fines comerciales.</Box>
         <br />
         <Box>
           Realizar cualquier acción que imponga o pueda imponer una carga
@@ -127,37 +118,31 @@ export function Term() {
             Política de Privacidad
           </Text>
         </Box>
-        <Box>Última Actualización: 26 de diciembre del 2023</Box>
+        <Box>Última Actualización: 08 de Abril del 2024</Box>
         <br />
         <Box>
           Usamos sus datos personales para proporcionar y mejorar el Servicio.
-          Al usar la aplicación TravelCity, acepta la recopilación y el uso de
+          Al usar la aplicación Empoderadas App, acepta la recopilación y el uso de
           información de acuerdo con esta Política de privacidad.
         </Box>
         <br />
         <Box>
-          TravelCity es una aplicación móvil de turismo y una herramienta
-          diseñada para mejorar la experiencia de viaje de los usuarios ansiosos
-          por la búsqueda de aventuras.
-        </Box>
-        <br />
-        <Box>
-          La aplicación de TravelCity recopila datos de la ubicación precisa
+          La aplicación de Empoderadas App recopila datos de la ubicación precisa
           (geolocalización) en segundo plano para georeferenciar los lugares
           turísticos más próximos y asegurar las mayores aventuras a tu
-          alrededor. La aplicación deTravelCity no recopila ni envía información
+          alrededor. La aplicación de Empoderadas App no recopila ni envía información
           de la ubicación de nuestros usuarios cuando la aplicación está cerrada
           o no está en uso.
         </Box>
         <br />
         <Box>
-          Si el usuario de la aplicación de TravelCity deniega el permiso a la
+          Si el usuario de la aplicación de Empoderadas App deniega el permiso a la
           ubicación (geolocalización) limitará la experiencia de la aplicación
           perdiéndose los mejores lugares a su alrededor.
         </Box>
         <br />
         <Box>
-          La aplicación de TravelCity no revela información de nuestros usuarios
+          La aplicación de Empoderadas App no revela información de nuestros usuarios
           de forma distinta a la expresada en esta política de privacidad.
         </Box>
         <br />
@@ -178,27 +163,8 @@ export function Term() {
           de los padres, tomamos medidas para eliminar esa información de
           Nuestros servidores.
         </Box>
-        <br />
-        <br />
-        <Box>
-          <Text fontSize={25} fontWeight="bold">
-            Contáctenos
-          </Text>
-        </Box>
-        <br />
-        <Box>
-          Si tiene alguna pregunta sobre esta Política de privacidad, puede
-          contactarnos por:{" "}
-          <Link
-            color="teal.300"
-            href="https://www.facebook.com/profile.php?id=61555232930916"
-            isExternal
-          >
-            Aquí
-          </Link>
-        </Box>
+        <br />    
       </Box>
-
       <Footer />
     </ChakraProvider>
   );
