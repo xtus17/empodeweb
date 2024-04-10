@@ -111,7 +111,7 @@ export function Form() {
             <Stack spacing={4}>
               <Stack align="center">
                 <Heading color="white" fontSize="2xl">
-                  Contáctame
+                  Empoderadas Contacto
                 </Heading>
               </Stack>
 

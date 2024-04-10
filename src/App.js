@@ -10,7 +10,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Landing />} />
         <Route path="/term" element={<Term />} />
-        {/*  <Route path="/form" element={<Form />} />  */}
+        <Route path="/form" element={<Form />} />
       </Routes>
     </AnimatePresence>
   );
